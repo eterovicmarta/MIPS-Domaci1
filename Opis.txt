@@ -1,0 +1,22 @@
+Opis resenja:
+
+Marta Eterovic 
+samoglasnici - 6
+suglasnici - 7
+ukupno - 13
+13%6=1
+
+Iz navedenih stavki: radim PB1 pin(prikazano u semi u Proteusu 8 Proefessional)
+
+Pokrecem projekat pomocu STM32CubeIde gde u main-u pisem odgovarajuci kod za paljenje i gasenje diode:
+
+Marta - 5
+Eterovic - 8 
+
+Ideja: Napravila sam u main-u jedan brojac za obe situacije i koristila sam while petlju.
+Prva while petlja: dioda svetli 5ms sa pauzom od 8ms, i postupak se ponavlja 5 puta. Kada vise nije ispunjen
+uslov while petlje, resetujem brojac na nulu i radim za drugi slucaj.
+Druga while petlja:  dioda svetli 8ms sa pauzom od 5ms, i postupak se ponavlja 8 puta. Kada vise nije ispunjen
+uslov while petlje, dioda nastavlja da svetli.
+
+Marta Eterovic 625/2020
